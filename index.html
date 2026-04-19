@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Tester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container" id="home-screen">
+        <h1>TYPING SPEED CHALLENGE</h1>
+        <p>Test how fast you can type a paragraph</p>
+        <button id="start-btn">Start Challenge</button>
+    </div>
+
+    <div class="container hidden" id="typing-screen" style="display: none;">
+        <div id="text-display"></div>
+        <textarea id="user-input" placeholder="Start typing here..."></textarea>
+        <div id="stats">
+            <span id="timer">Time: 0s</span>
+            <span id="wpm">WPM: 0</span>
+            <span id="accuracy">Accuracy: 0%</span>
+        </div>
+        <button id="submit-btn">Submit</button>
+    </div>
+
+    <div class="container hidden" id="result-screen" style="display: none;">
+        <h2>Your Results</h2>
+        <p id="result-wpm"></p>
+        <p id="result-accuracy"></p>
+        <p id="result-time"></p>
+        <p id="result-score"></p>
+        <p id="result-feedback"></p>
+        <button id="restart-btn">Try Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
