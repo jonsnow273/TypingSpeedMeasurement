@@ -93,3 +93,5 @@ Typing fast but sloppy? Your score takes the hit. Precision matters.
 ## 👤 Author
 
 **Pranit** — [@jonsnow273](https://github.com/jonsnow273)
+
+## Live Demo: https://typing-speed-measurement.vercel.app/
